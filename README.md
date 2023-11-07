@@ -115,7 +115,7 @@ Below are the step-by-step installation commands:
     git clone https://github.com/liruiw/Pointnet2_PyTorch
     cd Pointnet2_PyTorch
     git checkout dabe33a
-    pip install --no-deps -e ./pointnet2_ops_lib   %(## mine requirement: cuda 11.4 or 11.8; torch==2.0.1)
+    pip install --no-deps -e ./pointnet2_ops_lib   ##(mine requirement: 1) cuda 11.4 or 11.8; 2) torch==2.0.1)
     cd ..
 
     # Download data.
