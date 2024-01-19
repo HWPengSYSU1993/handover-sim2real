@@ -234,7 +234,14 @@ GADDPG_DIR=GA-DDPG CUDA_VISIBLE_DEVICES=0 python examples/test.py \
   SIM.INIT_VIEWER_CAMERA_POSITION "(+1.6947, -0.1000, +1.6739)" \
   SIM.INIT_VIEWER_CAMERA_TARGET "(+0.0200, -0.1000, +0.9100)"
 ```
-
+mine code:
+```Shell
+GADDPG_DIR=GA-DDPG CUDA_VISIBLE_DEVICES=0 python examples/test.py \
+  --model-dir output/cvpr2023_models/2022-10-16_08-48-30_finetune_5_s0_train \
+  SIM.RENDER True \
+  SIM.INIT_VIEWER_CAMERA_POSITION "(+1.6947, -0.5000, +1.4939)" \
+  SIM.INIT_VIEWER_CAMERA_TARGET "(+0.0100, -0.1000, +0.6100)"
+```
 This will:
 
 1. Open a visualizer window.
